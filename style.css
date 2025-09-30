@@ -1,0 +1,59 @@
+/* Reset basic margins/paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f7fbff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #0b66c2;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+header h1 {
+  margin-bottom: 0.5rem;
+}
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main sections */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+section {
+  margin-bottom: 2rem;
+}
+section h2 {
+  color: #0b66c2;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
